@@ -57,7 +57,6 @@ public class Board : MonoBehaviour
         }
         if (fruitCellUp.IsNeiborCell(fruitCellDown.gridPos))
         {
-            Debug.Log("yup");
             if (fruitCellDown == null)
             {
                 return; 
